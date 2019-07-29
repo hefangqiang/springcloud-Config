@@ -1,0 +1,15 @@
+
+# 应用端口号
+server:
+  port: 10001
+
+spring:
+  # 应用名
+  application:
+    name: eureka
+
+
+eureka:
+  instance:
+    hostname: localhost   # 主机名
+
