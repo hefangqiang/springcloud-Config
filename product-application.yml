@@ -53,7 +53,7 @@ eureka:
   client:
     register-with-eureka: true    #注册到eureka服务中心
     service-url:    # eureka注册中心地址
-      defaultZone: http://user:123456@eureka1:10001/eureka/,http://user:123456@eurekae2:10002/eureka/,http://user:123456@eureka3:10003/eureka/
+      defaultZone: http://user:123456@eureka1:10001/eureka/
 
 
 # 健康监控参数
@@ -114,7 +114,7 @@ eureka:
   client:
     register-with-eureka: true    #注册到eureka服务中心
     service-url:    # eureka注册中心地址
-      defaultZone: http://user:123456@eureka1:10001/eureka/,http://user:123456@eurekae2:10002/eureka/,http://user:123456@eureka3:10003/eureka/
+      defaultZone: http://user:123456@eureka1:10001/eureka/
 
 
 # 健康监控参数
